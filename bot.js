@@ -53,7 +53,7 @@ This bot demonstrates many of the core features of Botkit:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 var env = require('node-env-file');
 env(__dirname + '/.env');
-
+// stored credentials
 
 if (!process.env.clientId || !process.env.clientSecret || !process.env.PORT) {
   console.log('Error: Specify clientId clientSecret and PORT in environment');
